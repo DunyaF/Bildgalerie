@@ -1,52 +1,157 @@
 body {
-    font-family: Arial, sans-serif;
+
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+    font-family: poppins, black;
+    background-color: #f9999d;
+    color: #ffbebe;
 
-nav ul {
-    list-style: none;
-    display: flex;
-    background-color: #333;
-    padding: 10px;
-}
 
-nav ul li {
-    margin-right: 20px;
 }
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-}
-
+ 
 header {
+
     text-align: center;
-    padding: 50px;
-    background-color: #f4f4f4;
+    padding: 50px 0;
+
+}
+ 
+nav ul {
+
+    
+    list-style: none;
+    padding: 0;
+    margin: 30px 30px;
+    display: flex;
+    justify-content:right;
+    font-size: 14px;
+
+}
+ 
+nav ul li {
+
+    display: inline;
+
+}
+ 
+nav ul li a {
+
+    color: #ffbebe;
+    text-decoration: none;
+    margin: 0 15px;
+
+}
+ 
+h1 {
+
+    font-size: 180px;
+    margin: 20px 0;
+    
+
+}
+ 
+p {
+
+    font-size: 16px;
+    margin: 0 0 20px;
+
+}
+ 
+section {
+
+    padding: 50px 20px;
+
+}
+ 
+#about .about-content {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+ 
+#about img {
+
+    width: 300px;
+
+    height: auto;
+
+    border-radius: 50%;
+
+    margin-bottom: 20px;
+
+}
+ 
+#work .year {
+
+    font-size: 48px;
+
+    text-align: center;
+
+    margin: 50px 0 20px;
+
+}
+ 
+.work-item {
+
+    display: flex;
+
+    align-items: center;
+
+    margin: 20px 0;
+
+}
+ 
+.work-item img {
+
+    width: 50%;
+
+    height: auto;
+
+    margin-right: 20px;
+
+}
+ 
+.work-details {
+
+    font-size: 18px;
+
+}
+ 
+#contact {
+
+    text-align: center;
+
+}
+ 
+#contact .contact-content {
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+}
+ 
+#contact .contact-details {
+
+    margin-top: 20px;
+
+    font-size: 18px;
+
+}
+
+.active {
+    text-decoration: underline;
 }
 
 main {
-    padding: 20px;
+    padding: 0px 100px;
+    text-align: center;
 }
 
-#gallery img {
-    width: 200px;
-    margin: 10px;
-}
-
-form {
-    display: flex;
-    flex-direction: column;
-}
-
-form label {
-    margin-top: 10px;
-}
-
-form input, form textarea, form button {
-    margin-top: 5px;
-    padding: 10px;
-    font-size: 1rem;
+#textabout{
+    text-align: right;
 }

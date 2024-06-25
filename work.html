@@ -9,22 +9,21 @@
 <body>
     <nav>
         <ul>
-            <li><a href="./index.html">Home</a></li>
-            <li><a href="./work.html">Work</a></li>
-            <li><a href="./contact.html">Contact</a></li>
+            <li><a href="./index.html">ABOUT</a></li>
+            <li><a class="active" href="./work.html">WORK</a></li>
+            <li><a href="./contact.html">CONTACT</a></li>
         </ul>
     </nav>
     <header>
-        <h1>Meine Arbeiten</h1>
+        <h1>2024</h1>
     </header>
-    <main>
-        <section id="gallery"></section>
-        <form id="uploadForm">
-            <input type="file" id="fileInput" />
-            <button type="submit">Upload</button>
-        </form>
-    </main>
+   <div id="images">
+
+   </div>
     <script src="scripts.js"></script>
+    <script>
+        loadPostsFromPocketbase()
+    </script>
 </body>
 </html>
 

@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+* {
+	margin: 0;
+    padding: 0;
+	box-sizing: border-box;
+	text-transform: none;
+}
+
+html {
+	scroll-behavior: smooth;
+	font-weight: 300;
+	font-family: "Roboto", sans-serif;
+}
+
+body {
+	width: 100%;
+	min-height: 100%;
+	font-size: 14px;
+}
+
+main#meine-werke section {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: flex-start;
+	flex-wrap: wrap;
+}
+
+
+main #sticky {
+	position: sticky;
+	top: 0;
+	z-index: 9999;
+	background-color: white;
+	padding: 25px 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin-top: 50px;
+}
+
+main#meine-werke button {
+    padding: 10px 20px;
+    border-radius: 15px;
+    background-color: #496579;
+    color: #E9E8DF;
+    border: none;
+	margin: 0 20px;
+	cursor: pointer;
+	font-family: "Roboto", sans-serif;
+	
+}
+
+main#meine-werke button:hover {
+	background-color: #EFC6B8;
+	color: #496579;
+}
+
+h1.titel {
+	color: #496579;
+	text-align: center;
+	margin: 0px 0px 50px 0px;
+	font-size: 35px;
+	width: 100vw;
+	font-family: 'Oswald', sans-serif;
+	padding-top: 150px;
+}
+
+.card-image {
+	min-height: 500px; 
+	width: 300px;
+	background: #fff center center no-repeat;
+	background-size: cover;
+	background-position: 50% 20%;
+    text-decoration: none;
+    display: flex;
+    align-items: flex-end;
+    transition: 1s;
+	margin: 0 50px 50px 50px;
+	box-shadow: 0 0 3rem -1rem rgba(0,0,0,0.5);
+	transition: transform 0.1s ease-in-out, box-shadow 0.1s;
+}
+
+.card-image > img {
+	display: block;
+	width: 100%;
+	opacity: 0; /* visually hide the img element */
+}
+
+
+.card-description {
+	display: block;
+	padding: 1em 0.5em;
+	color: black;
+	text-decoration: none;
+    background-color: white;
+    width: 100%;
+	text-align: center;
+	
+}
+
+.card-description > h2 {
+	margin: 0 0 0.5em;
+	text-shadow: none;
+	font-family: "Roboto", sans-serif;
+ 	color: #496579;
+}
+
+.card-description > p {
+	margin: 0;
+	font-family: "Roboto", sans-serif;
+	font-weight: 300;
+}
+
+.card-image:hover {
+	transform: translateY(-0.5rem) scale(1.0125);
+	box-shadow: 0 0.5em 3rem -1rem rgba(0,0,0,0.5);
+	filter: none;
+	transition: 1s;
+
+}
+
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #496579;
+    height: 120px;
+    align-items: center;
+}
+
+header img {
+    float: left;
+    width: 100px;
+    height: 60px;
+    margin-right: 1em;
+    padding-left:20px; 
+	margin-left: 20px;
+}
+
+nav li {
+    font-size: 25px;
+    list-style: none;
+    display: inline;
+    padding-right:30px;
+}
+
+nav a {
+ color: #E9E8DF;
+ text-decoration: none;
+ margin: 0 10px;
+}
+
+nav a:hover {
+ color: #EFC6B8;
+}
+
+.active {
+    color: #EFC6B8;
+}
+
+.footer {
+    background-color: #496579; 
+    padding: 40px;
+	margin-top: 10px;
+    color: #E9E8DF;
+	height: 40px;
+	display: flex;
+	justify-content: center;	
+	align-items: center;
+
+}
+
+
+html, body{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	text-align:center;}
+	section {min-height: 100%;}
+	a{text-decoration: none;}
+	li{list-style-type: none;}
+
+	h4, h1, h2,h3, a{
+	 font-weight: 900;
+	 color: #494949;
+	 text-transform: uppercase; 
+	}
+	h1{
+	color: #E9E8DF;
+	font-family: 'Oswald', sans-serif;
+	margin-bottom: 20px;
+	}
+	h2{
+	 color: #E9E8DF;
+	 font-size: large;
+	 text-shadow: 5px 10px 10px #000000;
+	}
+	h3{
+	 font-size: 40px;
+	 padding-top: 8%;
+	 padding-bottom: 20px;
+	 color: #496579;
+	}
+	hr {
+	width:30px;
+	height:3px;
+	background-color: #494949;
+	border: 0;
+	margin: 0 auto 40px auto;
+	}
+	 #Quiz button, .button, img, li, #mercedeslogo {transition: all 300ms;}
+	/***HEADER*********/
+	
+	
+	
+
+	/***Startseite*********/
+	#Startseite{
+	background-image: url(./images/home/tanzbild_bahnofstrasse_1.jpg);
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+	}
+
+	#titlehome {
+		text-shadow: 5px 10px 10px #000000;
+	}
+
+	#Startseite h1 {
+	margin: 0 auto;
+	padding: 200px 200px 0px 200px;
+	font-size: 110px;
+	}
+	#Startseite h2{
+	margin: 1px 0 auto;
+	font-size: 25px;
+	}
+	#Startseite img {
+	 width: 32px;
+	 margin-top: 150px;
+	 opacity: 0.7;
+	}
+	#Startseite img:hover {
+	opacity: 1; 
+	transition: all 0.2s ease-in-out;
+	}
+	/***mehr-infos*********/
+	#Infos img {
+	width: 400px;  
+	}
+	#Infos img:hover{
+	transform: scale(1.1);
+	}
+	#Infos h4 {
+	font-size: 25px;
+	}
+
+	#Infos div {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	
+	#Infos p {
+	width: 50%;
+	text-align: center;
+	padding: 70px;	
+	color: #494949;
+	font-size: 20px; 
+	display: flex;
+	justify-content: flex-start;
+	}
+
+	#Infos button {
+	font-size: 40px;
+	font-family: "oswald", sans-serif;
+	background-color: #496579;
+	color: #E9E8DF;
+	padding: 10px 20px;
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	border: none;
+	transform: rotate(7deg);
+	
+	}
+	#Infos button:hover {
+	background-color:  #EFC6B8;
+	color: #496579;
+	transition: all 0.4s ease-in-out;
+		}
+
+		#myBtn {
+			display: none; /* Der Button wird standardmäßig ausgeblendet */
+			position: fixed; /* Der Button bleibt immer sichtbar, wenn man scrollt */
+			bottom: 20px; /* Abstand von unten */
+			right: 30px; /* Abstand von rechts */
+			z-index: 99; /* Der Button wird über anderen Elementen auf der Seite angezeigt */
+			border: none; /* Kein Rand um den Button */
+			outline: none; /* Kein Fokus-Rahmen um den Button */
+			background-color: #555; /* Hintergrundfarbe des Buttons */
+			color: white; /* Textfarbe des Buttons */
+			cursor: pointer; /* Zeiger ändert sich beim Überfahren des Buttons */
+			padding: 15px; /* Innenabstand des Buttons */
+			border-radius: 10px; /* Abrunden der Ecken des Buttons */
+		  }
+		  
+		  #myBtn:hover {
+			background-color: #555; /* Hintergrundfarbe des Buttons beim Überfahren */
+		  }
+
+		 
+		
+
+main#meine-werke button.active {
+	background-color: #EFC6B8;
+	color:  #496579;
+	;
+	
+}
