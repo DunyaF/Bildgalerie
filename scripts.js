@@ -73,13 +73,13 @@ function insertPostsIntoHtml(posts) {
     for (const post of posts) {
         const imageUrl = getImageUrlForImageName(post.id, post.images);
         const htmlCodeForOnePost = `
-            <div style="margin-top: 2rem; border: 1px solid gray;">
-                <img src="${imageUrl}" style="width: 300px;">
+            <div style="margin-top: 2rem; ">
+                <img src="${imageUrl}" style="width: 500px;">
             </div>
         `;
         htmlToInsert += htmlCodeForOnePost;
     }
-    document.getElementById('images').innerHTML = htmlToInsert;
+    document.getElementById('bildergallerie').innerHTML = htmlToInsert;
 }
 
 
